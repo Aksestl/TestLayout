@@ -1,0 +1,15 @@
+.font.button__text{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px; 
+    display: block;
+    color: #E5E5E5;
+    text-decoration: none;
+    margin: auto;
+}
+
+
+.button__text:hover{
+    color: #030303d5;
+}

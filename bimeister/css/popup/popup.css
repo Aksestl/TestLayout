@@ -1,0 +1,35 @@
+@import url(./__block/popup__block.css);
+@import url(./__heading/popup__heading.css);
+@import url(./__text/popup__text.css);
+
+@keyframes open {
+    0%   {transform:scale(.1);}
+    100% {transform:scale(1);}
+    
+}
+
+@keyframes close {
+    0%   {transform:scale(1);}
+    100%     {transform:scale(0);}
+}
+
+.popup{
+
+    width: 98%;
+    height: 95%;
+    background-image: url(/assets/pexels-andrea-piacquadio-3777572\ 1.png);
+    background-color: rgba(0, 0, 0, 0.993);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: fixed;
+    top: 2%;
+    left: 1%;
+
+    animation: open ease-in .2s;
+
+}
+
+.popup.popup_close{
+    animation: close ease-in .2s;
+}

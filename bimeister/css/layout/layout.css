@@ -1,0 +1,16 @@
+@import url(./_img/layout_img.css);
+
+.layout{
+    min-width: 100%;
+    min-height: 98vh;
+
+    background: #2A2E38;
+
+    position: relative;
+    display: flex;
+
+    -webkit-animation: fade-in 1s linear; 
+    -moz-animation: fade-in 1s linear; 
+    -o-animation: fade-in 1s linear; 
+    animation: fade-in 1s linear; 
+}

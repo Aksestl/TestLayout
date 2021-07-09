@@ -1,0 +1,24 @@
+@import url(./_block/cards_block.css);
+@keyframes fadeDown {
+    0% {               
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    100% {            
+        opacity: 1;
+        transform: none;
+    }
+}
+.cards{
+    width: 98%;
+    margin: auto 0;
+    position: fixed;
+    bottom: 3%;
+    left: 1%;
+
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    justify-content: space-between;
+    animation: both .1s fadeDown; 
+}

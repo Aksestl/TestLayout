@@ -1,0 +1,31 @@
+.cards_block{
+    width: 19%;
+    height: 226px;
+    background: #2A2E38;
+    color: #E5E5E5;
+    font-size: 24px;
+    padding: 10px;
+
+    display: block;
+    position: relative;
+}
+
+.cards_block:hover{
+    background: #3E65C2;
+    color: #E5E5E5;
+    transition: all .2s ease;
+    content: 'is useless';
+    color: #e5e5e58c;
+}
+.cards_block::after {
+    content: attr(data-title);
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    display: none;
+    color: #e5e5e58c;
+	transition: all .2s ease;
+}
+.cards_block:hover::after{
+    display: block;
+}

@@ -1,0 +1,25 @@
+@import url(./__home/button__home.css);
+@import url(./__text/button__text.css);
+
+.button{
+    width: 204px;
+    height: 100px;
+    border: 1px solid rgba(255, 255, 255);
+    border-radius: 80px;
+
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    z-index: 2;
+
+    background: linear-gradient(to top right, #E5E5E5 20%, #2A2E38 70%);
+    background-size: 300% 300%;
+    background-position: right top;
+    transition: all .4s ease-out;
+
+}
+
+.button:hover {
+    background-position: bottom left;
+    color: black;
+}

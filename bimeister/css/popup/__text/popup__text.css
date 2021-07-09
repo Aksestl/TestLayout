@@ -1,0 +1,7 @@
+@import url(./_blue/popup__text_blue.css);
+.popup__text{
+    
+    display: flex;
+    color: #E5E5E5;
+    text-decoration: none;
+}
